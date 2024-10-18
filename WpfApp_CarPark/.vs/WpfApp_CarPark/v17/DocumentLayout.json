@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp_CarPark\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F88821E6-EAA3-4144-BDE5-E9BE1DCD9E29}|WpfApp_CarPark\\WpfApp_CarPark.csproj|c:\\users\\student_06\\desktop\\\u0430\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\taskc-sharp-\\wpf\\wpfapp_carpark\\wpfapp_carpark\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F88821E6-EAA3-4144-BDE5-E9BE1DCD9E29}|WpfApp_CarPark\\WpfApp_CarPark.csproj|solutionrelative:wpfapp_carpark\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F88821E6-EAA3-4144-BDE5-E9BE1DCD9E29}|WpfApp_CarPark\\WpfApp_CarPark.csproj|C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp_CarPark\\wpfapp_carpark\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F88821E6-EAA3-4144-BDE5-E9BE1DCD9E29}|WpfApp_CarPark\\WpfApp_CarPark.csproj|solutionrelative:wpfapp_carpark\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp_CarPark\\WpfApp_CarPark\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp_CarPark\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp_CarPark\\WpfApp_CarPark\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp_CarPark\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-15T12:56:59.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp_CarPark\\WpfApp_CarPark\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp_CarPark\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp_CarPark\\WpfApp_CarPark\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp_CarPark\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:56:58.37Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

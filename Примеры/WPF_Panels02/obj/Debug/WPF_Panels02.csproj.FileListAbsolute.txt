@@ -1,0 +1,15 @@
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\bin\Debug\WPF_Panels02.exe.config
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\bin\Debug\WPF_Panels02.exe
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\bin\Debug\WPF_Panels02.pdb
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.csproj.AssemblyReference.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\MainWindow.g.cs
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\App.g.cs
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02_MarkupCompile.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02_MarkupCompile.lref
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\MainWindow.baml
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.g.resources
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.Properties.Resources.resources
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.csproj.GenerateResource.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.csproj.CoreCompileInputs.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.exe
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Panels02\obj\Debug\WPF_Panels02.pdb

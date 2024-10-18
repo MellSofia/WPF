@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{752A88CD-BF35-4CA2-B3BB-B96402F50563}|WpfApp1\\WpfApp1.csproj|c:\\users\\student_06\\desktop\\\u0430\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\taskc-sharp-\\wpf\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{752A88CD-BF35-4CA2-B3BB-B96402F50563}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752A88CD-BF35-4CA2-B3BB-B96402F50563}|WpfApp1\\WpfApp1.csproj|C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752A88CD-BF35-4CA2-B3BB-B96402F50563}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAawB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T13:10:29.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\TaskC-sharp-\\WPF\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-08T13:10:29.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

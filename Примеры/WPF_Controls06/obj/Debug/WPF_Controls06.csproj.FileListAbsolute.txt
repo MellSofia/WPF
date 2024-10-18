@@ -1,0 +1,30 @@
+D:\Visual Studio Projects\WPF_Controls06\bin\Debug\WPF_Controls06.exe.config
+D:\Visual Studio Projects\WPF_Controls06\bin\Debug\WPF_Controls06.exe
+D:\Visual Studio Projects\WPF_Controls06\bin\Debug\WPF_Controls06.pdb
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\App.g.cs
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06_MarkupCompile.cache
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06_MarkupCompile.lref
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.g.resources
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.Properties.Resources.resources
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.csproj.GenerateResource.cache
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.exe
+D:\Visual Studio Projects\WPF_Controls06\obj\Debug\WPF_Controls06.pdb
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\bin\Debug\WPF_Controls06.exe.config
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\bin\Debug\WPF_Controls06.exe
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\bin\Debug\WPF_Controls06.pdb
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.csproj.AssemblyReference.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\MainWindow.g.cs
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\App.g.cs
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06_MarkupCompile.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06_MarkupCompile.lref
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\MainWindow.baml
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.g.resources
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.Properties.Resources.resources
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.csproj.GenerateResource.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.csproj.CoreCompileInputs.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.exe
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Controls06\obj\Debug\WPF_Controls06.pdb

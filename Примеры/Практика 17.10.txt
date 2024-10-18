@@ -1,0 +1,185 @@
+Создать программу "Хранение данных о студентах".
+Программа должна обеспечивать следующие возможности:
+
+
+- перевести студента из одной группы в другую;
+- перевести группу на следующий курс;
+- добавить/удалить предметы группе;
+- добавить/удалить предметы преподавателю;
+- изменить студента/преподавателя/группу;
+- отчислить/выпустить студента/уволить преподавателя/распустить группу (ВАЖНО! студенты и преподаватели НЕ УДАЛЯЮТСЯ ИЗ БАЗЫ, а помечаются как отчисленные/уволенные);
+- поиск по всем возможным критериям.
+
+Дополнительные задания (со *).
+1. Добавить возможность загружать/добавлять информацию из файла/в файл. Сделать доступ к этому через меню.
+2. Добавить древовидное отображение всех студентов по группам, с возможностью посмотреть информацию о каждом студенте и группе (например, слева древо студентов, справа выводится информация по клику на нужный элемент в списке).
+
+
+
+<TabControl>
+    <TabItem Header="Студенты">
+        <StackPanel x:Name="Panel_AddStudent" Margin="0,15,15,15" Height="359" VerticalAlignment="Top" HorizontalAlignment="Right" Width="383">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="41*"></ColumnDefinition>
+                    <ColumnDefinition Width="200*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Имя" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="StudentName" TextChanged="StudentName_TextChanged" Margin="0,5,0,5" />
+
+                <Label Grid.Row="1" Grid.Column="0" Content="Фамилия" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="StudentsSureName" TextChanged="StudentsSureName_TextChanged" Margin="0,5,0,5" />
+
+                <Label Grid.Row="2" Grid.Column="0" Content="Отчество" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="2" Grid.Column="1" x:Name="StudentFatherName" TextChanged="StudentFatherName_TextChanged" Margin="0,5,0,5" />
+
+                <Label Grid.Column="0" Grid.Row="3" Content="Возраст" Margin="0,5,0,5"/>
+                <TextBox Grid.Column="1" Grid.Row="3" x:Name="StudentAge" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="4" Grid.Column="0" Content="Телефон" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="4" Grid.Column="1" x:Name="StudentPhone" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Content="Улица" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="5" Grid.Column="1" x:Name="StudentStrit" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="6" Grid.Column="0" Content="Дом" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="6" Grid.Column="1" x:Name="StudentHouseNum" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="7" Grid.Column="0" Content="Квартира" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="7" Grid.Column="1" x:Name="StudentFlatNum" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="8" Grid.Column="0" Content="Пол" Margin="0,5,0,5"></Label>
+                <StackPanel Grid.Column="1" Grid.Row="8" Orientation="Horizontal" Margin="0,5,0,0">
+                    <RadioButton Grid.Column="1" Grid.Row="8" x:Name="radioButton_man" Content="Мужской"/>
+                    <RadioButton x:Name="radioButton_woman" Content="Женский"/>
+                </StackPanel>
+
+                <Button Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Content="Добавить студента" Click="AddStudent_Click" Margin="35,5,35,5"/>
+            </Grid>
+        </StackPanel>
+    </TabItem>
+    <TabItem Header="Преподаватели">
+        <StackPanel x:Name="Panel_AddTeacher" Margin="45,15,45,15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="59*"></ColumnDefinition>
+                    <ColumnDefinition Width="356*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Имя" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="TeacherName" TextChanged="StudentName_TextChanged" Margin="0,5,0,5" />
+
+                <Label Grid.Row="1" Grid.Column="0" Content="Фамилия" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="TeacherSureName" TextChanged="StudentsSureName_TextChanged" Margin="0,5,0,5" />
+
+                <Label Grid.Row="2" Grid.Column="0" Content="Отчество" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="2" Grid.Column="1" x:Name="TeacherFatherName" TextChanged="StudentFatherName_TextChanged" Margin="0,5,0,5" />
+
+                <Label Grid.Column="0" Grid.Row="3" Content="Возраст" Margin="0,5,0,5"/>
+                <TextBox Grid.Column="1" Grid.Row="3" x:Name="TeacherAge" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="4" Grid.Column="0" Content="Телефон" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="4" Grid.Column="1" x:Name="TeacherPhone" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Content="Образование" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="5" Grid.Column="1" x:Name="TeacherEducation" Text="" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="6" Grid.Column="0" Content="Учёная степень" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="6" Grid.Column="1" x:Name="TeacherAcademicDegree" Text="" Margin="0,5,0,5"/>
+
+                <Label Grid.Row="7" Grid.Column="0" Content="Предметы" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <ComboBox Grid.Row="7" Grid.Column="1" x:Name="comboBoxTeacherSubjects" Margin="0,5,0,5">
+                </ComboBox>
+
+                <Button Grid.Row="8" Grid.Column="0" Content="Добавить преподавателя" Click="AddTeacher_Click" Margin="35,5,35,5" Grid.ColumnSpan="2"/>
+            </Grid>
+        </StackPanel>
+    </TabItem>
+    <TabItem Header="Группы">
+        <StackPanel Margin="302,0,18,0" Height="244" VerticalAlignment="Top" HorizontalAlignment="Right">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Название группы" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="0" Grid.Column="1" x:Name="GroupName" Text="" Margin="0,5,0,5" Grid.ColumnSpan="2"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Content="Курс группы" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="1" Grid.Column="1" x:Name="GroupYear" Text="" Margin="0,5,0,5" Grid.ColumnSpan="2"/>
+
+                <Label Grid.Row="2" Grid.Column="0" Content="Предметы и преподователи" Margin="0,5,0,5"></Label>
+                <ComboBox Grid.Row="2" Grid.Column="1" x:Name="comboBoxGroupSubjects" Margin="0,5,5,5">
+                </ComboBox>
+                <ComboBox Grid.Row="2" Grid.Column="2" x:Name="comboBoxGroupSubjectTeacher" Margin="2,5,0,5">
+                </ComboBox>
+
+                <Label Grid.Row="3" Grid.Column="0" Content="Студенты" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <ComboBox Grid.Row="3" Grid.Column="1" x:Name="comboBoxGroupMembers" Margin="0,5,0,5" Grid.ColumnSpan="2">
+                </ComboBox>
+
+                <Label Grid.Row="4" Grid.Column="0" Content="Направление обучения" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <TextBox Grid.Row="4" Grid.Column="1" x:Name="FieldOfStudy" Text="" Margin="0,5,0,5" Grid.ColumnSpan="2"/>
+
+                <Label Grid.Row="5" Grid.Column="0" Content="Степень обучения" Grid.RowSpan="2" Margin="0,5,0,5"></Label>
+                <ComboBox Grid.Row="5" Grid.Column="1" x:Name="DegreeOfStudy" Margin="0,5,0,5" Grid.ColumnSpan="2">
+                </ComboBox>
+
+                <Button Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" Content="Создать группу" Click="CreateGroup_Click" Margin="35,5,35,5"/>
+            </Grid>
+        </StackPanel>
+    </TabItem>
+</TabControl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Хранить данные о студентах в формате: ФИО (раздельно каждый элемент), возраст, номер телефона, адрес проживания (каждый элемент - отдельно, т.е., улица, дом и квартира - разные поля в классе адреса), пол. Отчество должно вводиться опционально.
+2. Хранить данные о преподавателях, формат аналогичен студентам, но не должно быть адреса проживания, зато должно быть образование, учёная степень и предметы, которые могут вести преподаватели.
+3. Хранить данные о группах в формате: название, курс, предметы группы, студенты группы, направление обучения, степень обучения. К предметам должны быть прикреплены также преподаватели, ведущие занятия.
+4. В интерфейсе программы должны быть следующие возможности:
+- создать студента;
+- создать преподавателя;
+- создать группу;

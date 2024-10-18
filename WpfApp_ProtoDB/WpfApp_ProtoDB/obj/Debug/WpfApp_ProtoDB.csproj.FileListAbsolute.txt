@@ -1,0 +1,17 @@
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.csproj.AssemblyReference.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\App.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB_MarkupCompile.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\MainWindow.baml
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\MainWindow.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.g.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.Properties.Resources.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\bin\Debug\WpfApp_ProtoDB.exe.config
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\bin\Debug\WpfApp_ProtoDB.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\bin\Debug\WpfApp_ProtoDB.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\EditUserWindow.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\WpfApp_ProtoDB_MarkupCompile.lref
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_ProtoDB\WpfApp_ProtoDB\obj\Debug\EditUserWindow.baml

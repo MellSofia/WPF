@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\PROGERS\\Students\\\u041F22\\Windows Presentation Foundation\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WPF_WrapPanel05\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7688910C-A270-4FFB-A73C-CB5C39ADA830}|WPF_WrapPanel05.csproj|\\\\progers\\students\\\u043F22\\windows presentation foundation\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wpf_wrappanel05\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7688910C-A270-4FFB-A73C-CB5C39ADA830}|WPF_WrapPanel05.csproj|\\\\progers\\students\\\u043F22\\windows presentation foundation\\\u043F\u0440\u0438\u043C\u0435\u0440\u044B\\wpf_wrappanel05\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Presentation Foundation\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WPF_WrapPanel05\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Presentation Foundation\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WPF_WrapPanel05\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-10T13:43:49.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "\\\\PROGERS\\Students\\\u041F22\\Windows Presentation Foundation\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WPF_WrapPanel05\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "\\\\PROGERS\\Students\\\u041F22\\Windows Presentation Foundation\\\u041F\u0440\u0438\u043C\u0435\u0440\u044B\\WPF_WrapPanel05\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T13:43:49.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

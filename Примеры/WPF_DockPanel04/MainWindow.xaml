@@ -1,0 +1,22 @@
+﻿<Window x:Class="WPF_DockPanel04.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_DockPanel04"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel LastChildFill="True">
+            <Button DockPanel.Dock="Bottom">Кнопка 1</Button>
+            <Button DockPanel.Dock="Top">Кнопка 2</Button>
+            <Button DockPanel.Dock="Left">Кнопка 3</Button>
+            <Button DockPanel.Dock="Right">Кнопка 4</Button>
+            <Button DockPanel.Dock="Bottom">Кнопка 5</Button>
+            <Button DockPanel.Dock="Top">Кнопка 6</Button>
+            <Button DockPanel.Dock="Right">Кнопка 7</Button>
+            <Button>Кнопка 8</Button>
+        </DockPanel>
+
+    </Grid>
+</Window>

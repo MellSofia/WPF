@@ -1,0 +1,30 @@
+﻿<Window x:Class="WPF_Controls06.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Controls06"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton Content="RB_One" GroupName="TestGroup" HorizontalAlignment="Left" Margin="705,10,0,0" VerticalAlignment="Top"
+                     ToolTip="Эти кнопки объединены в группу, и одновременно активна только одна."
+                     ToolTipService.BetweenShowDelay="1000"/>
+        <RadioButton Content="RB_Two" GroupName="TestGroup" HorizontalAlignment="Left" Margin="705,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.496,4.116"
+                     ToolTip="Эти кнопки объединены в группу, и одновременно активна только одна."
+                     ToolTipService.BetweenShowDelay="1000"/>
+        <RadioButton Content="RB_Three" GroupName="TestGroup" HorizontalAlignment="Left" Margin="705,50,0,0" VerticalAlignment="Top"
+                     MouseEnter="RadioButton_MouseEnter"/>
+        <Popup x:Name="popup" StaysOpen="True" Placement="Mouse" AllowsTransparency="True">
+            <TextBlock>Эти кнопки объединены в группу, и одновременно активна только одна.</TextBlock>
+        </Popup>
+        <Expander IsExpanded="True" HorizontalAlignment="Left" Height="100" Header="Expander" Margin="10,17,0,0" VerticalAlignment="Top" Width="100">
+            <Grid>
+                <CheckBox x:Name="chBox" Content="CheckBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"
+          IsThreeState="True" Checked="chBox_Checked" Unchecked="chBox_Unchecked" Indeterminate="chBox_Indeterminate"
+          ToolTip="Нажмите, чтобы увидеть MessageBox от этого чекбокса."
+          ToolTipService.InitialShowDelay="100" ToolTipService.BetweenShowDelay="1000"/>
+            </Grid>
+        </Expander>
+    </Grid>
+</Window>

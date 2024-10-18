@@ -1,0 +1,15 @@
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\bin\Debug\WpfApp_CarPark.exe.config
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\bin\Debug\WpfApp_CarPark.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\bin\Debug\WpfApp_CarPark.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.csproj.AssemblyReference.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\MainWindow.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\App.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark_MarkupCompile.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark_MarkupCompile.lref
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\MainWindow.baml
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.g.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.Properties.Resources.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\WpfApp_CarPark\WpfApp_CarPark\obj\Debug\WpfApp_CarPark.pdb

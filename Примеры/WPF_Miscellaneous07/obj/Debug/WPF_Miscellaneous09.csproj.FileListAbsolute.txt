@@ -1,0 +1,45 @@
+D:\Visual Studio Projects\WPF_Miscellaneous09\bin\Debug\WPF_Miscellaneous09.exe.config
+D:\Visual Studio Projects\WPF_Miscellaneous09\bin\Debug\WPF_Miscellaneous09.exe
+D:\Visual Studio Projects\WPF_Miscellaneous09\bin\Debug\WPF_Miscellaneous09.pdb
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\App.g.cs
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09_MarkupCompile.cache
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09_MarkupCompile.lref
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.g.resources
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.Properties.Resources.resources
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.csproj.GenerateResource.cache
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.exe
+D:\Visual Studio Projects\WPF_Miscellaneous09\obj\Debug\WPF_Miscellaneous09.pdb
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\bin\Debug\WPF_Miscellaneous09.exe.config
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\bin\Debug\WPF_Miscellaneous09.exe
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\bin\Debug\WPF_Miscellaneous09.pdb
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.csproj.AssemblyReference.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\MainWindow.g.cs
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\App.g.cs
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09_MarkupCompile.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09_MarkupCompile.lref
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\MainWindow.baml
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.g.resources
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.Properties.Resources.resources
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.csproj.GenerateResource.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.csproj.CoreCompileInputs.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.exe
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\bin\Debug\WPF_Miscellaneous09.exe.config
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\bin\Debug\WPF_Miscellaneous09.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\bin\Debug\WPF_Miscellaneous09.pdb
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.csproj.AssemblyReference.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\MainWindow.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\App.g.cs
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09_MarkupCompile.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09_MarkupCompile.lref
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\MainWindow.baml
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.g.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.Properties.Resources.resources
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.csproj.GenerateResource.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.csproj.CoreCompileInputs.cache
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.exe
+C:\Users\Student_06\Desktop\Ахмутдиновой\TaskC-sharp-\WPF\Примеры\WPF_Miscellaneous07\obj\Debug\WPF_Miscellaneous09.pdb

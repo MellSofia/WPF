@@ -1,0 +1,47 @@
+﻿<Window x:Class="WpfApp_CarPark.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_CarPark"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Создание транспортного средства" VerticalAlignment="Top" Margin="107,65,437,0"></Label>
+        <Label Content="Cписок транспортных средств" VerticalAlignment="Top" Margin="504,65,0,0"></Label>
+
+        <Label Content="Имя" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="107,96,0,0"/>
+        <TextBox x:Name="textBox_name" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,96,0,0"/>
+
+        <Label Content="Назначение" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="107,131,0,0"/>
+        <ComboBox x:Name="comboBox_purpose" Width="121" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,131,0,0">
+            <ComboBoxItem Content="Легковое"/>
+            <ComboBoxItem Content="Грузовое"/>
+            <ComboBoxItem Content="Автобус"/>
+        </ComboBox>
+
+        <Label Content="Топливо" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="109,174,0,0"/>
+        <ComboBox x:Name="comboBox_fuel_type" Width="121" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="186,171,0,0" SelectionChanged="ComboBox_fuel_type_SelectionChanged">
+            <ComboBoxItem Content="Газ"/>
+            <ComboBoxItem Content="Дизель"/>
+            <ComboBoxItem Content="Бензин"/>
+        </ComboBox>
+
+        <Label Content="Топливо подтивы" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="109,209,0,0"/>
+        <ComboBox x:Name="comboBox_fuel_subtype" Width="121" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="219,0,0,0" IsEnabled="False"/>
+
+        <Label Content="Расход топлива" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="109,241,0,0"/>
+        <TextBox x:Name="textBox_fuel_consumption" Width="46" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="208,238,0,0" PreviewTextInput="NumericTextBox_PreviewTextInput"/>
+        <Label Content="ед. топлива/100 км;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,241,0,0"/>
+
+        <Label Content="Средняя скорость" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="109,273,0,0"/>
+        <TextBox x:Name="textBox_AverageSpeed" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="216,270,0,0" PreviewTextInput="NumericTextBox_PreviewTextInput"/>
+        <Label Content="км/ч." HorizontalAlignment="Left" VerticalAlignment="Top" Margin="325,275,0,0"/>
+
+        <Button Content="Добавить Транспортное средство" Width="200" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="109,304,0,0" Click="Button_Add_Vehicle_Click"/>
+
+        <ListBox x:Name="listBox_carpool_depots" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="504,96,0,0" Width="178" Height="200" ScrollViewer.VerticalScrollBarVisibility="Visible" SelectionChanged="ListBox_carpool_depots_SelectionChanged"/>
+
+        <Button Content="Рассчитать" Width="178" Height="22" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="504,308,0,0" Click="Button_Calculate_Click"/>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\bin\Debug\WPF_Containers07.exe.config
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\bin\Debug\WPF_Containers07.exe
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\bin\Debug\WPF_Containers07.pdb
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.csproj.AssemblyReference.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\MainWindow.g.cs
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\App.g.cs
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07_MarkupCompile.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07_MarkupCompile.lref
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\MainWindow.baml
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.g.resources
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.Properties.Resources.resources
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.csproj.GenerateResource.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.csproj.CoreCompileInputs.cache
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.exe
+\\PROGERS\Students\П22\Windows Presentation Foundation\Примеры\WPF_Containers07\obj\Debug\WPF_Containers07.pdb

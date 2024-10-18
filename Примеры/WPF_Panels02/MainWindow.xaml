@@ -1,0 +1,51 @@
+﻿<Window x:Class="WPF_Panels02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Panels02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="gridMain" ShowGridLines="True" Margin="0,101,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Margin="20">
+            <Label Content="Имя" />
+            <TextBox x:Name="textBox_name" Width="250" TextChanged="TextBox_name_TextChanged"/>
+
+            <Label Content="Фамилия" />
+            <TextBox x:Name="textBox_surname" Width="250" TextChanged="TextBox_surname_TextChanged"/>
+
+            <Label Content="Рабочий номер" />
+            <CheckBox x:Name="checkBox_mobile_num" Content="Рабочий номер" Checked="CheckBox_mobile_num_CheckedChanged"/>
+            <TextBox x:Name="textBox_mobile_num" Width="250" TextChanged="TextBox_mobile_num_TextChanged"/>
+
+            <Label Content="Домашний номер" />
+            <TextBox x:Name="textBox_home_num" Width="250" TextChanged="TextBox_home_num_TextChanged"/>
+
+            <Label Content="Пол" />
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="radioButton_man" Content="Мужской" Checked="RadioButton_man_CheckedChanged"/>
+                <RadioButton x:Name="radioButton_woman" Content="Женский" Checked="RadioButton_woman_CheckedChanged"/>
+            </StackPanel>
+
+            <Label Content="Пароль" />
+            <TextBox x:Name="textBox_password" Width="250" TextChanged="TextBox_password_TextChanged"/>
+
+            <ComboBox x:Name="comboBox_position" Width="250">
+                <ComboBoxItem Content="Позиция 1"/>
+                <ComboBoxItem Content="Позиция 2"/>
+            </ComboBox>
+
+            <Button x:Name="button_sent" Content="Зарегистрироваться" Width="139" Height="67" Click="Button_sent_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
