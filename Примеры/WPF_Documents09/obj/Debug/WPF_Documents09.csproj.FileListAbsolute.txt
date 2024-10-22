@@ -1,0 +1,30 @@
+D:\Visual Studio Projects\WPF_Documents09\bin\Debug\WPF_Documents09.exe.config
+D:\Visual Studio Projects\WPF_Documents09\bin\Debug\WPF_Documents09.exe
+D:\Visual Studio Projects\WPF_Documents09\bin\Debug\WPF_Documents09.pdb
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\App.g.cs
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09_MarkupCompile.cache
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09_MarkupCompile.lref
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.g.resources
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.Properties.Resources.resources
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.csproj.GenerateResource.cache
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.exe
+D:\Visual Studio Projects\WPF_Documents09\obj\Debug\WPF_Documents09.pdb
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\bin\Debug\WPF_Documents09.exe.config
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\bin\Debug\WPF_Documents09.exe
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\bin\Debug\WPF_Documents09.pdb
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.csproj.AssemblyReference.cache
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\MainWindow.g.cs
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\App.g.cs
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09_MarkupCompile.cache
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09_MarkupCompile.lref
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\MainWindow.baml
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.g.resources
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.Properties.Resources.resources
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.csproj.GenerateResource.cache
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.csproj.CoreCompileInputs.cache
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.exe
+\\PROGERS\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_Documents09\obj\Debug\WPF_Documents09.pdb
