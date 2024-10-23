@@ -15,3 +15,20 @@ C:\Users\Student_06\Desktop\Ахмутдиновой\WPF\WPF\WpfAppProtoBD\WpfAp
 C:\Users\Student_06\Desktop\Ахмутдиновой\WPF\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.pdb
 C:\Users\Student_06\Desktop\Ахмутдиновой\WPF\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\MainWindow.baml
 C:\Users\Student_06\Desktop\Ахмутдиновой\WPF\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\MainWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\bin\Debug\WpfAppProtoBD.exe.config
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\bin\Debug\WpfAppProtoBD.exe
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\bin\Debug\WpfAppProtoBD.pdb
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\MainWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\MainWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\EditUserWindow.g.cs
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\App.g.cs
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD_MarkupCompile.cache
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD_MarkupCompile.lref
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\EditUserWindow.baml
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.g.resources
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.Properties.Resources.resources
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.csproj.GenerateResource.cache
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.exe
+C:\Users\User\OneDrive\Рабочий стол\ТОП\WPF\WpfAppProtoBD\WpfAppProtoBD\obj\Debug\WpfAppProtoBD.pdb
