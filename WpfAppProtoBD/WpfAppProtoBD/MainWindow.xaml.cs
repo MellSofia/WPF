@@ -59,7 +59,7 @@ namespace WpfAppProtoBD
             button_regist.Visibility = button_regist.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
             ClearRegistrationFields();
         }
-
+            
         private void button_login_Click(object sender, RoutedEventArgs e)
         {
             panel_login.Visibility = panel_login.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp_StudentDB", "WpfApp_StudentDB\WpfApp_StudentDB.csproj", "{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EF03CC4-82D7-4670-BE6F-D5687EFB439B}
+	EndGlobalSection
+EndGlobal

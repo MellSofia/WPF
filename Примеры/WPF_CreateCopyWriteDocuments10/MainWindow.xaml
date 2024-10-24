@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF_CreateCopyWriteDocuments10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_CreateCopyWriteDocuments10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <FlowDocumentScrollViewer x:Name="document">
+                <FlowDocument>
+                    <Paragraph>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et bibendum ipsum. Fusce felis risus, blandit vel molestie non, congue in tortor. Nam fringilla libero ex, at suscipit leo posuere sed. Aliquam elit libero, scelerisque quis lectus id, placerat cursus mauris. Phasellus sagittis dignissim arcu, iaculis efficitur mi luctus eu. In bibendum ultricies bibendum. In et condimentum ex, vitae laoreet turpis. Donec viverra tempor sem, eu euismod tellus mattis nec. Donec ac ante quis sapien pulvinar feugiat vel quis orci. Etiam tincidunt dui elementum molestie malesuada. Pellentesque arcu tortor, faucibus eu tempus auctor, consequat at sapien. Quisque vulputate sapien ut cursus maximus. Duis in dui nec sapien rhoncus cursus sit amet et leo.</Paragraph>
+                </FlowDocument>
+            </FlowDocumentScrollViewer>
+            <StackPanel Height="247">
+                <Button Content="Сохранить" Click="Button_Save"/>
+                <Button Content="Удалить" Click="Button_Clear"/>
+                <Button Content="Загрузить" Click="Button_Load"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

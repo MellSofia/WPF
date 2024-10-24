@@ -1,0 +1,30 @@
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\bin\Debug\WPF_CreateCopyWriteDocuments10.exe.config
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\bin\Debug\WPF_CreateCopyWriteDocuments10.exe
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\bin\Debug\WPF_CreateCopyWriteDocuments10.pdb
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\App.g.cs
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10_MarkupCompile.cache
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10_MarkupCompile.lref
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\MainWindow.baml
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.g.resources
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.Properties.Resources.resources
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.csproj.GenerateResource.cache
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.exe
+D:\Visual Studio Projects\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.pdb
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\bin\Debug\WPF_CreateCopyWriteDocuments10.exe.config
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\bin\Debug\WPF_CreateCopyWriteDocuments10.exe
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\bin\Debug\WPF_CreateCopyWriteDocuments10.pdb
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.csproj.AssemblyReference.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\MainWindow.g.cs
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\App.g.cs
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10_MarkupCompile.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10_MarkupCompile.lref
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\MainWindow.baml
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.g.resources
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.Properties.Resources.resources
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.csproj.GenerateResource.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.csproj.CoreCompileInputs.cache
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.exe
+\\progers\Students\Группа П22\Windows Presentation Foundation\Примеры\WPF_CreateCopyWriteDocuments10\obj\Debug\WPF_CreateCopyWriteDocuments10.pdb
