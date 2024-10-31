@@ -1,0 +1,60 @@
+CREATE TABLE Departments(
+  id int identity(1,1) primary key not null,
+  Building int not null CHECK(Building >= 1 and Building <= 5),
+  Financing money not null CHECK(Financing >= 0) DEFAULT(0),
+  Floor int not null CHECK(Floor >= 1 ),
+  Name nvarchar(100) not null CHECK(LEN(Name) > 0) unique
+);
+
+CREATE TABLE Diseases(
+  id int identity(1,1) primary key not null,
+  Name nvarchar(20) not null CHECK(LEN(Name) > 0) unique,
+  Severity int not null DEFAULT(-1) CHECK(Severity >= 1)
+);
+
+CREATE TABLE Doctors(
+  id int identity(1,1) primary key not null,
+  Name nvarchar(20) not null unique CHECK(LEN(Name) > 0),
+  Phone char(10),
+  Premium money not null CHECK (Premium >= 0) DEFAULT(0),
+  Salary money CHECK(Salary > 0),
+  Surname nvarchar(20) not null CHECK(LEN(Surname) > 0)
+);
+
+CREATE TABLE Examinations(
+  id int identity(1,1) primary key not null,
+  DayOfWeek int not null CHECK(DayOfWeek >= 1 and DayOfWeek <= 7),
+  EndTime time not null ,
+  Name nvarchar(20) unique not null CHECK(LEN(Name) > 0),
+  StartTime time not null CHECK(StartTime >= '08:00:00' and StartTime <= '18:00:00'),
+  CONSTRAINT checki CHECK(EndTime<StartTime)
+);
+
+
+CREATE TABLE Ward(
+  id int identity(1,1) primary key not null,
+  Building int not null CHECK(Building >= 1 and Building <= 5),
+  Floor int not null CHECK(Floor >= 1 ),
+  Name nvarchar(20) not null CHECK(LEN(Name) > 0) unique
+)
+
+--INSERT INTO Departments (Building, Financing, Name) VALUES (1, 1000.00, 'Cardiology');
+--INSERT INTO Departments (Building, Financing, Name) VALUES (2, 1500.00, 'Neurology');
+
+--INSERT INTO Diseases (Name, Severity) VALUES ('Diabetes', 2);
+--INSERT INTO Diseases (Name, Severity) VALUES ('Diabetes', 3);
+
+--INSERT INTO Doctors (Name, Phone, Salary, Surname) VALUES ('Alex', '4685654582', 5000.00, 'Alexandrov');
+--INSERT INTO Doctors (Name, Phone, Salary, Surname) VALUES ('Max', '4886578955', 6000.00, 'Maximov');
+
+--INSERT INTO Examinations (DayOfWeek, EndTime, Name, StartTime) VALUES(1, "10:00:00", "Blood Test", "10:30:00" )
+
+--1
+SELECT * FROM Ward;
+--2
+SELECT Surname, Phone FROM Doctors 
+--4
+--6
+--7
+--8
+--9

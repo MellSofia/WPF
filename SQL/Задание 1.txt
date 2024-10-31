@@ -1,0 +1,30 @@
+
+-- create
+CREATE TABLE Departments(
+  id int identity(1,1) primary key not null,
+  Building int not null CHECK(Building>=1 and Building <=5) ,
+  Financing money not null CHECK(Financing>=0) DEFAULT(0),
+  Name nvarchar(100) not null CHECK(LEN(Name)>0) unique
+);
+
+CREATE TABLE Diseases{
+  id int identity(1,1) primary key not null,
+  Name nvarchar(100) not null CHECK(LEN(Name)>0) unique,
+  Severity int not null CHECK( Severity>=1) DEFAULT(1)
+};
+
+CREATE TABLE Doctors{
+  id int identity(1,1) primary key not null,
+  Name nvarchar(max) not null CHECK(LEN(Name)>0) unique,
+  Phone char(10),
+  Salary money CHECK(Salary>0),
+  Surname nvarchar(max) not null CHECK(LEN(Surname)>0)
+};
+
+CREATE TABLE Examinations{
+  id int identity(1,1) primary key not null,
+  DayOfWeek int not null CHECK(DayOfWeek>=1 and DayOfWeek<=7),
+  EndTime time not null CHECK(EndTime>StartTime),
+  Name nvarchar(100) unique not null CHECK(LEN(Name)>0),
+  StartTime time not null CHECK(StartTime>= 08:00:00 and StartTime<= 18:00:00)
+};

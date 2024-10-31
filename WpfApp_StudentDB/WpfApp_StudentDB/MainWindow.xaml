@@ -17,12 +17,16 @@
             <TabItem Header="Студенты">
                 <StackPanel>
                     <Button Content="Добавить Студента" Click="AddStudentButton_Click" Margin="20,10,20,10"/>
-                    <DataGrid Name="StudentsDataGrid" AutoGenerateColumns="False" Margin="20,0,20,0">
+                    <DataGrid Name="StudentsDataGrid" AutoGenerateColumns="False" Margin="20,0,20,0" EnableRowVirtualization="False">
                         <DataGrid.Columns>
                             <DataGridTextColumn Width="100*" Header="Имя" Binding="{Binding FirstName}"/>
-                            <DataGridTextColumn Width="150*" Header="Фамилия" Binding="{Binding LastName}"/>
-                            <DataGridTextColumn Width="60*" Header="Возраст" Binding="{Binding Age}"/>
-                            <DataGridTextColumn Width="150*" Header="Телефон" Binding="{Binding PhoneNumber}"/>
+                            <DataGridTextColumn Width="100*" Header="Фамилия" Binding="{Binding FirstName}"/>
+                            <DataGridTextColumn Width="100*" Header="Отчество" Binding="{Binding FirstName}"/>
+                            <DataGridTextColumn Width="60*" Header="Возраст" Binding="{Binding FirstName}"/>
+                            <DataGridTextColumn Width="100*" Header="Номер" Binding="{Binding FirstName}"/>
+                            <DataGridTextColumn Width="150*" Header="Адрес" Binding="{Binding LastName}"/>
+                            <DataGridTextColumn Width="60*" Header="Пол" Binding="{Binding Age}"/>
+                            <DataGridTextColumn Width="150*" Header="Статус" Binding="{Binding PhoneNumber}"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </StackPanel>
@@ -58,7 +62,7 @@
                 </StackPanel>
             </TabItem>
         </TabControl>
-        <StackPanel x:Name="AddStudent" Visibility="Visible">
+        <StackPanel x:Name="AddStudent" Visibility="Hidden">
             <Grid Margin="25,30,25,0" Height="320">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150" ></ColumnDefinition>
@@ -76,32 +80,32 @@
                     <RowDefinition Height="35"></RowDefinition>
                 </Grid.RowDefinitions>
                 <Label Grid.Column="0" Grid.Row="0" Name="FirstNameStudLabel" Content="Имя"></Label>
-                <TextBox Grid.Column="1" Grid.Row="0" Name="FirstNameStudTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="0" Name="FirstNameStudTextBox" Margin="5" TextChanged="FirstNameStudTextBox_TextChanged"/>
                 
                 <Label Grid.Column="0" Grid.Row="1" Name="LastNameStudLabel" Content="Фамилия"></Label>
-                <TextBox Grid.Column="1" Grid.Row="1" Name="LastNameStudTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="1" Name="LastNameStudTextBox" Margin="5" TextChanged="LastNameStudTextBox_TextChanged"/>
                 
                 <Label Grid.Column="0" Grid.Row="2" Name="MiddleNameStudLabel" Content="Отчество"></Label>
-                <TextBox Grid.Column="1" Grid.Row="2" Name="MiddleNameStudTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="2" Name="MiddleNameStudTextBox" Margin="5" TextChanged="MiddleNameStudTextBox_TextChanged"/>
                 
                 <Label Grid.Column="0" Grid.Row="3" Name="AgeStudLabel" Content="Возраст"></Label>
-                <TextBox Grid.Column="1" Grid.Row="3" Name="AgeStudTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="3" Name="AgeStudTextBox" Margin="5" TextChanged="AgeStudTextBox_TextChanged"/>
                 
                 <Label Grid.Column="0" Grid.Row="4" Name="PhoneStudNumberLabel" Content="Номер телефона"></Label>
-                <TextBox Grid.Column="1" Grid.Row="4" Name="PhoneNumberStudTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="4" Name="PhoneNumberStudTextBox" Margin="5" TextChanged="PhoneNumberStudTextBox_TextChanged"/>
                 
                 <Label Grid.Column="0" Grid.Row="5" Name="AddressStudLabel" Content="Адресс"></Label>
-                <TextBox Grid.Column="1" Grid.Row="5" Name="StreetStudTextBox" Margin="5"/>
-                <TextBox Grid.Column="1" Grid.Row="5" Name="HouseNumberStudTextBox" Margin="5"/>
-                <TextBox Grid.Column="1" Grid.Row="5" Name="ApartmentNumberStudTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="5" Name="StreetStudTextBox" Margin="5" Width="192" HorizontalAlignment="Left" TextChanged="StreetStudTextBox_TextChanged"/>
+                <TextBox Grid.Column="1" Grid.Row="5" Name="HouseNumberStudTextBox" Margin="5" Width="192" HorizontalAlignment="Center" TextChanged="HouseNumberStudTextBox_TextChanged"/>
+                <TextBox Grid.Column="1" Grid.Row="5" Name="ApartmentNumberStudTextBox" Margin="5" Width="192" HorizontalAlignment="Right" TextChanged="ApartmentNumberStudTextBox_TextChanged"/>
 
-                <Label Grid.Column="0" Grid.Row="6" Name="IsExpelledLabel" Content="Пол"></Label>
-                <RadioButton Grid.Column="1" x:Name="RadioButton_Wemen" Content="Женский" HorizontalAlignment="Left" Margin="28,0,0,0" Grid.Row="6" VerticalAlignment="Center"/>
-                <RadioButton Grid.Column="1" x:Name="RadioButton_Men" Content="Мужской" HorizontalAlignment="Left" Margin="164,0,0,0" Grid.Row="6" VerticalAlignment="Center"/>
+                <Label Grid.Column="0" Grid.Row="6" Name="GenderLabel" Content="Пол"></Label>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_Wemen" GroupName="Gender" Content="Женский" HorizontalAlignment="Left" Margin="28,0,0,0" Grid.Row="6" VerticalAlignment="Center"/>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_Men" GroupName="Gender" Content="Мужской" HorizontalAlignment="Left" Margin="164,0,0,0" Grid.Row="6" VerticalAlignment="Center"/>
 
-                <Label Grid.Column="0" Grid.Row="7" Name="GenderLabel" Content="Статус"></Label>
-                <RadioButton Grid.Column="1" x:Name="RadioButton_Yes" Content="Отчислен" HorizontalAlignment="Left" Margin="28,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
-                <RadioButton Grid.Column="1" x:Name="RadioButton_No" Content="Учится" HorizontalAlignment="Left" Margin="164,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
+                <Label Grid.Column="0" Grid.Row="7" Name="IsExpelledLabel" Content="Статус"></Label>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_Yes" GroupName="IsExpelled" Content="Отчислен" HorizontalAlignment="Left" Margin="28,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_No" GroupName="IsExpelled" Content="Учится" HorizontalAlignment="Left" Margin="164,0,0,0" Grid.Row="7" VerticalAlignment="Center"/>
 
                 <Button Grid.Column="1" Grid.Row="8" Content="Добавить" Click="AddStudButton_Click" Width="80" Margin="5" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 <Button Grid.Column="1" Grid.Row="8" Content="Отмена" Click="CancelStudButton_Click" Width="80"  Margin="100, 5, 0, 5" HorizontalAlignment="Left" VerticalAlignment="Center"/>
@@ -109,7 +113,7 @@
             </Grid>
         </StackPanel>
         <StackPanel x:Name="AddTeacher" Visibility="Hidden">
-            <Grid Margin="25,30,25,0" Height="290">
+            <Grid Margin="25,30,25,0" Height="395">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="150" ></ColumnDefinition>
                     <ColumnDefinition Width="150*"></ColumnDefinition>
@@ -123,31 +127,46 @@
                     <RowDefinition Height="35"></RowDefinition>
                     <RowDefinition Height="35"></RowDefinition>
                     <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
+                    <RowDefinition Height="35"></RowDefinition>
                 </Grid.RowDefinitions>
 
                 <Label Grid.Column="0" Grid.Row="0" Name="FirstNameTeachLabel" Content="Имя"></Label>
-                <TextBox Grid.Column="1" Grid.Row="0" Name="FirstNameTeachTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="0" Name="FirstNameTeachTextBox" Margin="5" TextChanged="FirstNameTeachTextBox_TextChanged"/>
 
                 <Label Grid.Column="0" Grid.Row="1" Name="LastNameTeachLabel" Content="Фамилия"></Label>
-                <TextBox Grid.Column="1" Grid.Row="1" Name="LastNameTeachTextBox" Margin="5"/>
+                <TextBox Grid.Column="1" Grid.Row="1" Name="LastNameTeachTextBox" Margin="5" TextChanged="LastNameTeachTextBox_TextChanged"/>
 
-                <Label Grid.Column="0" Grid.Row="2" Name="AgeTeachLabel" Content="Возраст"></Label>
-                <TextBox Grid.Column="1" Grid.Row="2" Name="AgeTeachTextBox" Margin="5"/>
+                <Label Grid.Column="0" Grid.Row="2" Name="MiddleNameTeachLabel" Content="Отчество"></Label>
+                <TextBox Grid.Column="1" Grid.Row="2" Name="MiddleNameTeachTextBox" Margin="5" TextChanged="MiddleNameTeachTextBox_TextChanged"/>
 
-                <Label Grid.Column="0" Grid.Row="3" Name="PhoneNumberTeachLabel" Content="Номер телефона"></Label>
-                <TextBox Grid.Column="1" Grid.Row="3" Name="PhoneNumberTeachTextBox" Margin="5"/>
+                <Label Grid.Column="0" Grid.Row="3" Name="AgeTeachLabel" Content="Возраст"></Label>
+                <TextBox Grid.Column="1" Grid.Row="3" Name="AgeTeachTextBox" Margin="5" TextChanged="AgeTeachTextBox_TextChanged"/>
 
-                <Label Grid.Column="0" Grid.Row="4" Name="EducationTeachLabel" Content="Образование"></Label>
-                <TextBox Grid.Column="1" Grid.Row="4" Name="EducationTeachTextBox" Margin="5"/>
+                <Label Grid.Column="0" Grid.Row="4" Name="PhoneNumberTeachLabel" Content="Номер телефона"></Label>
+                <TextBox Grid.Column="1" Grid.Row="4" Name="PhoneNumberTeachTextBox" Margin="5" TextChanged="PhoneNumberTeachTextBox_TextChanged"/>
 
-                <Label Grid.Column="0" Grid.Row="5" Name="DegreeTeachLabel" Content="Учебная степень"></Label>
-                <TextBox Grid.Column="1" Grid.Row="5" Name="DegreeTeachTextBox"  Margin="5"/>
+                <Label Grid.Column="0" Grid.Row="5" Name="EducationTeachLabel" Content="Образование"></Label>
+                <TextBox Grid.Column="1" Grid.Row="5" Name="EducationTeachTextBox" Margin="5" TextChanged="EducationTeachTextBox_TextChanged"/>
 
-                <Label Grid.Column="0" Grid.Row="6" Name="SubjectsTeachLabel" Content="Предмет"></Label>
-                <TextBox Grid.Column="1" Grid.Row="6" Name="SubjectsTeachTextBox" Margin="5"/>
+                <Label Grid.Column="0" Grid.Row="6" Name="DegreeTeachLabel" Content="Учебная степень"></Label>
+                <TextBox Grid.Column="1" Grid.Row="6" Name="DegreeTeachTextBox"  Margin="5" TextChanged="DegreeTeachTextBox_TextChanged"/>
 
-                <Button Grid.Column="1" Grid.Row="7" Content="Добавить" Click="AddTeachButton_Click" Width="80"/>
-                <Button Grid.Column="1" Grid.Row="7" Content="Отмена" Click="CancelTeachButton_Click" Width="80" Margin="88,0,432,0"/>
+                <Label Grid.Column="0" Grid.Row="7" Name="SubjectsTeachLabel" Content="Предмет"></Label>
+                <TextBox Grid.Column="1" Grid.Row="7" Name="SubjectsTeachTextBox" Margin="5" TextChanged="SubjectsTeachTextBox_TextChanged"/>
+
+                <Label Grid.Column="0" Grid.Row="8" Name="GenderTeachLabel" Content="Пол"></Label>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_MenTeach" GroupName="Gender_Tach" Content="Мужчина" HorizontalAlignment="Left" Margin="28,0,0,0" Grid.Row="8" VerticalAlignment="Center"/>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_WemenTeach" GroupName="Gender_Tach" Content="Женщина" HorizontalAlignment="Center" Margin="164,0,0,0" Grid.Row="8" VerticalAlignment="Center"/>
+
+                <Label Grid.Column="0" Grid.Row="9" Name="IsFiredTeachLabel" Content="Статус работника"></Label>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_IsFiredTeach" GroupName="IsFired" Content="Работает" HorizontalAlignment="Left" Margin="28,0,0,0" Grid.Row="9" VerticalAlignment="Center"/>
+                <RadioButton Grid.Column="1" x:Name="RadioButton_IsnotFiredTeach" GroupName="IsFired" Content="Уволен" HorizontalAlignment="Center" Margin="164,0,0,0" Grid.Row="9" VerticalAlignment="Center"/>
+
+
+                <Button Grid.Column="1" Grid.Row="10" Content="Добавить" Click="AddTeachButton_Click"  HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5"/>
+                <Button Grid.Column="1" Grid.Row="10" Content="Отмена" Click="CancelTeachButton_Click"  HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="100, 5, 0, 5"/>
             </Grid>
         </StackPanel>
         <StackPanel x:Name="AddGroup" Visibility="Hidden">

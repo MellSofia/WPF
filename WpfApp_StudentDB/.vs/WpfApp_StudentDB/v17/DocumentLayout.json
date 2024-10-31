@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\WPF\\WPF\\WpfApp_StudentDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}|WpfApp_StudentDB\\WpfApp_StudentDB.csproj|c:\\users\\student_06\\desktop\\\u0430\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\wpf\\wpf\\wpfapp_studentdb\\wpfapp_studentdb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}|WpfApp_StudentDB\\WpfApp_StudentDB.csproj|solutionrelative:wpfapp_studentdb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}|WpfApp_StudentDB\\WpfApp_StudentDB.csproj|c:\\users\\student_06\\desktop\\\u0430\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\wpf\\wpf\\wpfapp_studentdb\\wpfapp_studentdb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}|WpfApp_StudentDB\\WpfApp_StudentDB.csproj|solutionrelative:wpfapp_studentdb\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}|WpfApp_StudentDB\\WpfApp_StudentDB.csproj|C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\WPF\\WPF\\WpfApp_StudentDB\\wpfapp_studentdb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F6B717C-CCC7-417A-9E4D-DA932D777FEE}|WpfApp_StudentDB\\WpfApp_StudentDB.csproj|solutionrelative:wpfapp_studentdb\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +26,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\WPF\\WPF\\WpfApp_StudentDB\\WpfApp_StudentDB\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WpfApp_StudentDB\\MainWindow.xaml",
@@ -38,13 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\WPF\\WPF\\WpfApp_StudentDB\\WpfApp_StudentDB\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp_StudentDB\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Student_06\\Desktop\\\u0410\u0445\u043C\u0443\u0442\u0434\u0438\u043D\u043E\u0432\u043E\u0439\\WPF\\WPF\\WpfApp_StudentDB\\WpfApp_StudentDB\\MainWindow.xaml.cs",
               "RelativeToolTip": "WpfApp_StudentDB\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAIAAAAAlAAAA",
+              "ViewState": "AQIAAKYAAAAAAAAAAAA4wMoAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T13:59:38.914Z",
               "EditorCaption": ""
