@@ -3,7 +3,7 @@ CREATE TABLE Departments(
   Building int not null CHECK(Building >= 1 and Building <= 5),
   Financing money not null CHECK(Financing >= 0) DEFAULT(0),
   Floor int not null CHECK(Floor >= 1 ),
-  Name nvarchar(100) not null CHECK(LEN(Name) > 0) unique
+  Name nvarchar(20) not null CHECK(LEN(Name) > 0) unique
 );
 
 CREATE TABLE Diseases(
@@ -38,23 +38,36 @@ CREATE TABLE Ward(
   Name nvarchar(20) not null CHECK(LEN(Name) > 0) unique
 )
 
---INSERT INTO Departments (Building, Financing, Name) VALUES (1, 1000.00, 'Cardiology');
---INSERT INTO Departments (Building, Financing, Name) VALUES (2, 1500.00, 'Neurology');
+INSERT INTO Ward (Building, Floor, Name) VALUES (3, 2, "Reabilitation32");
+INSERT INTO Ward (Building, Floor, Name) VALUES (4, 2, "Reabilitation42");
+INSERT INTO Ward (Building, Floor, Name) VALUES (4, 1, "Reabilitation41");
+INSERT INTO Ward (Building, Floor, Name) VALUES (5, 2, "Reabilitation52");
+INSERT INTO Ward (Building, Floor, Name) VALUES (5, 1, "Reabilitation51");
 
---INSERT INTO Diseases (Name, Severity) VALUES ('Diabetes', 2);
---INSERT INTO Diseases (Name, Severity) VALUES ('Diabetes', 3);
+INSERT INTO Departments (Building, Financing, Floor, Name) VALUES (5, 14000.00, 3, 'Cardiology');
+INSERT INTO Departments (Building, Financing, Floor, Name) VALUES (2, 14550.00, 2, 'Neurology');
+INSERT INTO Departments (Building, Financing, Floor, Name) VALUES (3, 14550.00, 2, 'Neurology2');
+INSERT INTO Departments (Building, Financing, Floor, Name) VALUES (5, 10050.00, 2, 'Pediatrics');
+INSERT INTO Departments (Building, Financing, Floor, Name) VALUES (3, 10000.00, 4, 'Pediatrics2');
 
---INSERT INTO Doctors (Name, Phone, Salary, Surname) VALUES ('Alex', '4685654582', 5000.00, 'Alexandrov');
---INSERT INTO Doctors (Name, Phone, Salary, Surname) VALUES ('Max', '4886578955', 6000.00, 'Maximov');
+INSERT INTO Diseases (Name, Severity) VALUES ("Idiotism", 10)
+INSERT INTO Diseases (Name, Severity) VALUES ("Death", 20)
 
---INSERT INTO Examinations (DayOfWeek, EndTime, Name, StartTime) VALUES(1, "10:00:00", "Blood Test", "10:30:00" )
+INSERT INTO Doctors (Name, Phone, Premium, Salary, Surname) VALUES ('Alex', '4685654582', 6000 ,5000.00, 'Alexandrov');
+INSERT INTO Doctors (Name, Phone, Premium, Salary, Surname) VALUES ('Ivan', '4865523144', 6000 ,5000.00, 'Ivanov');
+INSERT INTO Doctors (Name, Phone, Premium, Salary, Surname) VALUES ('Max', '4814577811', 6000 ,5000.00, 'Maximov');
 
 --1
 SELECT * FROM Ward;
 --2
-SELECT Surname, Phone FROM Doctors 
+SELECT Surname, Phone FROM Doctors ;
 --4
+SELECT Name, Severity FROM Diseases;
 --6
+SELECT Name From Departments  where Building=5 and Financing<30000;
 --7
+SELECT Name From Departments  where Building=3 and Financing>12000 and Financing<15000
 --8
+SELECT Name From Ward where (Building=4 OR Building=5) and Floor=1
 --9
+SELECT Name, Building, Financing From Departments where (Building=3 or Building=6) and (Financing<11000 or Financing>25000)
