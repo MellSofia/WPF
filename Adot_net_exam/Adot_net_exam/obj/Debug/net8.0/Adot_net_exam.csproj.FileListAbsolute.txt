@@ -1,0 +1,4 @@
+C:\Users\Administrator\Desktop\Ахмутдинова2\Adot_net_exam\Adot_net_exam\obj\Debug\net8.0\Adot_net_exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Ахмутдинова2\Adot_net_exam\Adot_net_exam\obj\Debug\net8.0\Adot_net_exam.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\Ахмутдинова2\Adot_net_exam\Adot_net_exam\obj\Debug\net8.0\Adot_net_exam.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\Ахмутдинова2\Adot_net_exam\Adot_net_exam\obj\Debug\net8.0\Adot_net_exam.csproj.CoreCompileInputs.cache
